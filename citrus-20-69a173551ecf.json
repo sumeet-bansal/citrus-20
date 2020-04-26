@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "citrus-20",
+  "private_key_id": "69a173551ecfa0f1d79afcac880fb49f0a76c148",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCWFXNgnk+lStwF\nXzQmFLLo3A9NgVXO4cvG85nTUN/sc9AGwStwOtStGSBXs+WlEXupH3gsSTKhqMHq\n2A/BhLt3c7m1bK84kDKPojEbkzxxzRvvTVOWBpCXYO78t32lGRHhPJvSnCPqo0qQ\nxerqkJNZRQHp7RLQWrQKK0YgxD8/xT5b4xaK3cDgSQL23oISisU2dYDfAhadvu2U\nCvg2V3nPlq+wt0LoLOU6eFLVqmnjIUcjITpsLyGLPptfwzB9o6C0+MLVGhuYuyn2\nByG/AFnK3pN9Whe/k06t+1Kvi839NX2gHruwnCWiq+yYotJH8pvLmG//cqP973O1\nlbxtCDj/AgMBAAECggEAEH1V2mE6bfY+G0b9A0wV5hi7g6/4ngzX50l/dqS1nZSR\n4BQcMi38jPIsSAaHbi3wEMJY4UC/k9xnReasQH5VXIf1+PVygPvy2i4fSCDSrMw0\nzAOKcfrRqxgm2dRNNTT+bmlK04Z9ObvsJuDf8RqmXdIDplB6VzMIAfAEOfhl3Jsj\nrry/e5SRRzFMsNiwI1WqTwHilHpZRXAzjcnosRmh6k5OrYgIuERC8flUOCymcvEy\nKFzc+BhqvHJ18bqybwVwKVgPbx1UlRbu7wVTqOg1hYDKcLFQIYJwD5x78hHUC0NC\n0Ldj9+oq3SKW5TKv16BcYYUdw9Stz/eQ/UAxW+h5rQKBgQDEjsrqxNNMZyGRm0Sd\nHhAV57dZtShGDPX/Na1qLchIPUH5jmUeaXlhDUuCNBKyARmhnSbmIbrLE9BhPKXA\nWJHYOj4E1Y1qq1zEmrTEjq4HvA+ECofpqG4jLfw0lMaBNuTW5LFiri5+wcMdMP1z\n/jBCRC1iDw+SWlWyUMYl9+9RqwKBgQDDeLYtydfeMuqLZS/gJ47ozv5gZBtrSEsJ\ntZQYDNmI20uzB2ZPXHtn8F6ZpfPZh9gk4+P9eL+lKwmrRzJEMYSBpctMzwu3HcYR\nYch7lA15eoqWTU2ynvARoiTIuM/tHah7gBl4rSrNWqCHmF5Zfr5rvIROBnw3thMi\nnsYSyHCJ/QKBgHpg/W4Whgh33aqupZW9df5tevbbl+ulfjQb05DcWGrB2SXrxoGc\n4fnPMUgr68fwb2j0U5fNQGPYPlGMVRbhDk02Vg7kd1wGvYebWxlWTHx8Vpy7gcu1\nFn3Iz9JdHwqshuZVFSx/jmtVcInoSqXBiYJ4uFjpT6SrodeX+wcAy3xpAoGBAIN9\n0l9e5j3s1mZK/Te2pKXriKbi8KbsjL3NTgAXtMYhbvzRv3snZUR4J8sIHc95WGcI\nfjfmYFUFbI2xaRkCjnaARxA2P1VBTBopQyoOYDoVuuB8xAWicTALeN8lo4mIZ+wc\nMgZBxwc5Lb/JOb7OSd5DhGTQbAM2Eg057Vh5SWspAoGBAKQp3atQkaA6M1aj0qY4\n0CIoEbF+IZ4afQm0NvSRU7QxrbQ+bLqgw8eqS35LTRPhjbgq2n2wrnuMVKwjb9Yr\nZvIsR9mKPDRK1MwWDOeKcIco52dXrxLyRi5Xatp/J34n3G6bLvGcwra0BZpZKJ8q\nT8jhg475VzRDSlSR5Ob/dY/5\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-vetyy@citrus-20.iam.gserviceaccount.com",
+  "client_id": "104670085808582245190",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-vetyy%40citrus-20.iam.gserviceaccount.com"
+}

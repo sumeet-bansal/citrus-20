@@ -4,11 +4,16 @@
   "description": "Citrus Hacks 2020 API",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "@google-cloud/firestore": "^3.7.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon -L -e js -i node_modules -i .git -V index.js"
   },
   "repository": {
     "type": "git",
