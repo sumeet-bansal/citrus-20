@@ -1,10 +1,12 @@
 const express = require('express');
 const firebaseAdmin = require('firebase-admin');
+const morgan = require('morgan');
 
 const server = express();
 
 server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
+server.use(morgan(':date[web] :method :url :status :response-time[3]ms'));
 
 const serviceAccount = require('./citrus-20-69a173551ecf.json');
 const credentials = { credential: firebaseAdmin.credential.cert(serviceAccount) };
