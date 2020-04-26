@@ -62,7 +62,7 @@ server.post('/user/attendance', async (req, res, next) => {
     user.points.month[29] = parseInt(user.points.month[29], 10) + parseInt(way.pointValue, 10);
     user.points.alltime = parseInt(user.points.alltime, 10) + parseInt(way.pointValue, 10);
     await db.collection('Users').doc(req.body.user).update(user);
-    await res.json({error: null});
+    await res.json({success: true});
   } catch (err) {
     console.error(err);
   }
