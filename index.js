@@ -16,7 +16,7 @@ server.get('/user/:id', async (req, res, next) => {
     const doc = await db.collection('Users').doc(req.params.id).get();
     if (!doc.exists) return res.json({error: 'No such user exists'});
     const user = doc.data();
-    res.json({user});
+    await res.json({user});
   } catch (err) {
     console.error(err);
   }
@@ -30,7 +30,7 @@ server.get('/ways', async (req, res, next) => {
       d.id = doc.id;
       return d;
     });
-    res.json({ways});
+    await res.json({ways});
   } catch (err) {
     console.error(err);
   }
@@ -43,7 +43,7 @@ server.get('/leaderboard', async (req, res, next) => {
       const {name, points} = doc.data();
       return {name, points};
     });
-    res.json({leaderboard});
+    await res.json({leaderboard});
   } catch (err) {
     console.error(err);
   }
@@ -60,7 +60,7 @@ server.post('/user/attendance', async (req, res, next) => {
     user.points.month[29] = parseInt(user.points.month[29], 10) + parseInt(way.pointValue, 10);
     user.points.alltime = parseInt(user.points.alltime, 10) + parseInt(way.pointValue, 10);
     await db.collection('Users').doc(req.body.user).update(user);
-    res.json({error: null});
+    await res.json({error: null});
   } catch (err) {
     console.error(err);
   }
@@ -83,7 +83,7 @@ server.post('/user', async (req, res, next) => {
       user.ways[way_ids[i]] = way;
     }
     const id = await db.collection('Users').add(user).then((doc) => doc.id);
-    res.json({id});
+    await res.json({id});
   } catch (err) {
     console.error(err);
   }
